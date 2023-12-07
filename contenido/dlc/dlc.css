@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "fuentetitulo";
+    src: url(../../fonts/OptimusPrinceps.ttf);
+
+}
+
+h1 {
+
+    font-family: 'fuentetitulo';
+    /*https://transfonter.org/*/
+    font-size: 70px;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+h2 {
+
+    text-align: center;
+    font-weight: lighter;
+    
+}
+
+body {
+
+    background-image: url(../../fotitos/Dusttexture_auto_x2.jpg);
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.principal {
+
+    width: 95vw;
+    margin: auto;
+    padding: 10px;
+    border: 0.5px solid #c2c2c2;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    background-color: rgba(19, 19, 19, 0.8);
+}
+
+div.infocontainer {
+
+    width: 92vw;
+    margin: auto;
+    padding: 10px;
+    border: 0.5px solid #c2c2c2;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    background-color: rgba(19, 19, 19, 0.8);
+    margin-top: 30px;
+
+}
+
+.hordivider {
+
+    width: 600px;
+    border-top: 1px solid;
+    top: 650px;
+    right: 660px;
+    position: absolute;
+    margin: 10px;
+    rotate:calc(90deg);
+
+}
+
+.lista {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    font-size: larger;
+
+}
+
+.photocont {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    object-fit: contain;
+    width: 50%;
+    height: auto;
+    margin: auto;
+
+}
+
+div.endpagecontainer {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 5%;
+    font-size: larger;
+    text-align: center;
+    border: aliceblue;
+    border-style: double;
+    padding: 20px;
+    
+}
+
+div.endpagelink {
+
+    color: rgb(158, 130, 152);
+
+}
